@@ -1,0 +1,31 @@
+{
+  "name": "webpack-uglify-harmony",
+  "version": "1.0.0",
+  "description": "A replacement for Webpack's UglifyJSPlugin to use UglifyJS Harmony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkuma/webpack-uglify-harmony.git"
+  },
+  "keywords": [
+    "webpack",
+    "uglifyjs",
+    "harmony",
+    "uglify",
+    "plugin"
+  ],
+  "author": "Gregory Waxman",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Akkuma/webpack-uglify-harmony/issues"
+  },
+  "homepage": "https://github.com/Akkuma/webpack-uglify-harmony#readme",
+  "dependencies": {
+    "source-map": "^0.5.6",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony",
+    "webpack-sources": "^0.1.3"
+  }
+}
